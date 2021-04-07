@@ -1,6 +1,6 @@
 {
   "name": "@generic-mmo/buildtools",
-  "version": "0.0.1-next.0",
+  "version": "0.0.1-next.1",
   "repository": "https://github.com/generic-mmo/buildtools",
   "scripts": {
     "version": "node scripts/version.js",
@@ -28,5 +28,6 @@
     "npm-run-path": "4.0.1",
     "tslib": "2.1.0",
     "typescript": "4.1.3"
-  }
+  },
+  "gitHead": "5ed2a2c622da6cd6035b30880cc83cc31fb4e184"
 }
