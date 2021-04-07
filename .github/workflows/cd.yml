@@ -40,6 +40,7 @@ jobs:
       - name: Push modified files to the repository
         run: |
           git push "https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git" HEAD:${{github.ref}} --follow-tags
+      - run: npm whoami
       - name: Publish to npm artifactory
         run: |
           npm run publish --if-present
