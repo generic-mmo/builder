@@ -7,7 +7,10 @@
   },
   "bin": {
     "buildtools-build": "./bin/build",
-    "buildtools-clean": "./bin/clean"
+    "buildtools-clean": "./bin/clean",
+    "buildtools-version": "./bin/version",
+    "buildtools-publish": "./bin/publish",
+    "buildtools-monorepo": "./bin/monorepo"
   },
   "files": [
     "package.json",
