@@ -22,6 +22,7 @@ spawnSync(
     [
         "--proto_path=./",
         "--js_out=import_style=commonjs,binary:./",
+        "--grpc_out=grpc_js:./",
         "./schema/schema.proto",
         "--ts_out=./",
         ...process.argv.slice(2)
