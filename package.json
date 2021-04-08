@@ -1,6 +1,6 @@
 {
   "name": "@generic-mmo/buildtools",
-  "version": "0.1.0-next.7",
+  "version": "0.1.0-next.8",
   "repository": "https://github.com/generic-mmo/buildtools",
   "scripts": {
     "version": "node scripts/version.js"
