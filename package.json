@@ -8,9 +8,10 @@
   "bin": {
     "buildtools-build": "./bin/build",
     "buildtools-clean": "./bin/clean",
-    "buildtools-version": "./bin/version",
+    "buildtools-monorepo": "./bin/monorepo",
+    "buildtools-protobuf": "./bin/protobuf",
     "buildtools-publish": "./bin/publish",
-    "buildtools-monorepo": "./bin/monorepo"
+    "buildtools-version": "./bin/version"
   },
   "files": [
     "package.json",

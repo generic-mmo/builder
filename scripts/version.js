@@ -29,10 +29,7 @@ spawnSync(
                 /stable$/.test(GITHUB_REF)
                     ? [ "--conventional-graduate" ]
                     :
-                    [],
-
-
-        ...process.argv.slice(2)
+                    []
     ],
     {
         cwd: process.cwd(),

@@ -7,8 +7,7 @@ spawnSync(
     "tsc",
     [
         "--build",
-        "--clean",
-        ...process.argv.slice(2)
+        "--clean"
     ],
     {
         cwd: process.cwd(),
@@ -21,9 +20,7 @@ spawnSync(
 spawnSync(
     "shx rm",
     [
-        "./schema/**/*.ts",
-        "./schema/**/*.js",
-        ...process.argv.slice(2)
+        "./schema/**/*.ts"
     ],
     {
         cwd: process.cwd(),

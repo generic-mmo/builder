@@ -23,9 +23,7 @@ spawnSync(
                 /stable$/.test(GITHUB_REF)
                     ? [ "--dist-tag", "latest" ]
                     :
-                    [],
-
-        ...process.argv.slice(2)
+                    []
     ],
     {
         cwd: process.cwd(),

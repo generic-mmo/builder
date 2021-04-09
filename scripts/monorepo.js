@@ -7,7 +7,6 @@ spawnSync(
     "lerna",
     [
         "bootstrap",
-        ...process.argv.slice(2)
     ],
     {
         cwd: process.cwd(),
@@ -20,9 +19,7 @@ spawnSync(
 
 spawnSync(
     "link-parent-bin",
-    [
-        ...process.argv.slice(2)
-    ],
+    [],
     {
         cwd: process.cwd(),
         shell: true,
