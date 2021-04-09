@@ -21,7 +21,8 @@ spawnSync(
 spawnSync(
     "shx rm",
     [
-        "./schema/**/*.(js|ts)",
+        "./schema/**/*.ts",
+        "./schema/**/*.js",
         ...process.argv.slice(2)
     ],
     {
