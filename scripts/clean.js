@@ -17,3 +17,17 @@ spawnSync(
         env: npmrunpath.env()
     }
 )
+
+spawnSync(
+    "shx rm",
+    [
+        "./schema/**/*.(js|ts)",
+        ...process.argv.slice(2)
+    ],
+    {
+        cwd: process.cwd(),
+        shell: true,
+        stdio: "inherit",
+        env: npmrunpath.env()
+    }
+)
