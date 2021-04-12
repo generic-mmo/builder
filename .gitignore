@@ -9,6 +9,8 @@ lib/
 ## Caching
 .cache/
 .tsbuildinfo
+## Logs
+*-debug*
 ## Reports
 coverage/
 
