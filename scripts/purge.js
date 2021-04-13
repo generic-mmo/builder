@@ -4,10 +4,9 @@ const npmrunpath = require("npm-run-path")
 
 
 spawnSync(
-    "tsc",
+    "git clean",
     [
-        "--build",
-        "--clean"
+        "-fdx --exclude .env"
     ],
     {
         cwd: process.cwd(),
