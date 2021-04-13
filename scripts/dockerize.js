@@ -12,6 +12,7 @@ const user = organization.replace(/\W/g, ""),
     repository = name
 
 
+console.log(`${user}/${repository}:${package.version}`)
 spawnSync(
     `docker build`,
     [
