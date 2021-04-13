@@ -8,7 +8,7 @@ const { CI = "", GITHUB_REF = "" } = process.env
 spawnSync(
     "lerna",
     [
-        "publish", "from-git",
+        "publish", "from-git", ...process.argv.slice(2),
 
         ...
             CI
