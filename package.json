@@ -9,6 +9,8 @@
     "buildtools-build": "./bin/build",
     "buildtools-clean": "./bin/clean",
     "buildtools-monorepo": "./bin/monorepo",
+    "buildtools-link": "./bin/link",
+    "buildtools-purge": "./bin/purge",
     "buildtools-protobuf": "./bin/protobuf",
     "buildtools-publish": "./bin/publish",
     "buildtools-version": "./bin/version"
