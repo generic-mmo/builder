@@ -15,7 +15,7 @@ const user = organization.replace(/\W/g, ""),
 spawnSync(
     `docker build`,
     [
-        "--tag"
+        "--tag",
         `${user}/${repository}:${package.version}`
     ],
     {
@@ -30,7 +30,7 @@ if (process.argv.slice(2).includes("--publish")) {
     spawnSync(
         `docker login`,
         [
-            `--username ${user}`
+            `--username ${user}`,
             `--password ${DOCKERHUB_TOKEN}`
         ],
         {
@@ -40,7 +40,6 @@ if (process.argv.slice(2).includes("--publish")) {
             env: npmrunpath.env()
         }
     )
-
     spawnSync(
         `docker push`,
         [
