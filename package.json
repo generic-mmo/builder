@@ -8,11 +8,12 @@
   "bin": {
     "buildtools-build": "./bin/build",
     "buildtools-clean": "./bin/clean",
-    "buildtools-monorepo": "./bin/monorepo",
+    "buildtools-dockerize": "./bin/dockerize",
     "buildtools-link": "./bin/link",
-    "buildtools-purge": "./bin/purge",
+    "buildtools-monorepo": "./bin/monorepo",
     "buildtools-protobuf": "./bin/protobuf",
     "buildtools-publish": "./bin/publish",
+    "buildtools-purge": "./bin/purge",
     "buildtools-version": "./bin/version"
   },
   "files": [
